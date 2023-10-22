@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".OtpActivity">
+
+    <TextView
+        android:id="@+id/verifyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        android:textColor="#1563DA"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/waitingTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/sms"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/counterTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/sentCodeET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="phone"
+        android:hint="@string/otpspacing"
+        android:imeActionId="6"
+        android:imeActionLabel="sent"
+        android:imeOptions="actionUnspecified"
+        android:inputType="phone"
+        android:letterSpacing="0.8"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/code"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/verificationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="15dp"
+        android:text="@string/send_verification_code"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/resend_sms"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+

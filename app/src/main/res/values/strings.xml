@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WhatsAppClone</string>
+    <string name="spalshscreen">spalshScreen</string>
+    <string name="hello">Welcome to MassageApp</string>
+    <string name="text2">Verify Your Number</string>
+    <string name="text3">Please Enter Your number \n to get a SMS for verify your number</string>
+    <string name="enter_phone_number">enter phone number</string>
+    <string name="next">Next</string>
+    <string name="sms">Waiting to automatically detect the SMS sent to \n %s Wrong Number?</string>
+    <string name="number">Verify +919079874082</string>
+    <string name="otpspacing">------</string>
+    <string name="code">Enter 6-Digit Code</string>
+    <string name="send_verification_code">Send verification code</string>
+    <string name="resend_sms">resend sms</string>
+    <string name="verify_number">Verify %s</string>
+    <string name="seconds_remaining">Seconds Remaining:%d</string>
+</resources>
